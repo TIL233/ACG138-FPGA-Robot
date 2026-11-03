@@ -1,0 +1,25 @@
+{
+  "units": "mm",
+  "points": [
+    [
+      1000,
+      0
+    ],
+    [
+      1000,
+      1000
+    ],
+    [
+      0,
+      1000
+    ]
+  ],
+  "dwell_s": 3.0,
+  "confirm_frames": 5,
+  "confirm_s": 0.4,
+  "total_timeout_s": 240.0,
+  "approach_timeout_s": 30.0,
+  "min_person_width": 0.25,
+  "approach_speed": 6,
+  "visual_stop_width": 0.45
+}

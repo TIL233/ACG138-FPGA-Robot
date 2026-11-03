@@ -1,0 +1,3 @@
+# Host-side regression and deployment dependencies; GTK is installed by apt on RK.
+-r robot_rebuild/rk/requirements.txt
+paramiko>=3,<6

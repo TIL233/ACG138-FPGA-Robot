@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Robot HDMI Display
+Comment=Select the connected HDMI screen after desktop login
+Exec=/home/ubuntu/.local/bin/robot-hdmi-display.sh
+Terminal=false
+OnlyShowIn=XFCE;
+X-GNOME-Autostart-enabled=true

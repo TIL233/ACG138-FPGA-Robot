@@ -1,0 +1,11 @@
+{
+  "primary": "ov5647",
+  "usb_device": "/dev/v4l/by-id/usb-Sonix_Technology_Co.__Ltd._USB_2.0_Camera-video-index0",
+  "csi_index": 0,
+  "csi_width": 1296,
+  "csi_height": 972,
+  "csi_backend": "raw",
+  "rotation": 180,
+  "preview": "off",
+  "fpga_monitor": false
+}

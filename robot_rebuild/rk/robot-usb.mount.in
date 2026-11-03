@@ -1,0 +1,17 @@
+# Install as the name returned by:
+# systemd-escape --path --suffix=mount /media/ubuntu/robot-usb
+[Unit]
+Description=Robot USB video storage (@UUID@)
+BindsTo=@DEVICE_UNIT@
+After=@DEVICE_UNIT@
+
+[Mount]
+What=/dev/disk/by-uuid/@UUID@
+Where=/media/ubuntu/robot-usb
+Type=vfat
+Options=rw,nosuid,nodev,noexec,uid=1000,gid=1000,umask=0022,codepage=936,iocharset=utf8,shortname=mixed,errors=remount-ro,nofail
+TimeoutSec=15
+LazyUnmount=yes
+
+[Install]
+WantedBy=@DEVICE_UNIT@

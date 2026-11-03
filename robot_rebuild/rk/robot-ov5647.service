@@ -1,0 +1,19 @@
+[Unit]
+Description=ACG138 OV5647 CSI0 capture preparation
+After=local-fs.target
+RequiresMountsFor=/home/ubuntu/fpga-hdmi-viewer
+ConditionPathExists=/home/ubuntu/fpga-hdmi-viewer/camera_config.json
+
+[Service]
+Type=simple
+WorkingDirectory=/home/ubuntu/fpga-hdmi-viewer
+ExecStart=/usr/bin/python3 -B prepare_ov5647.py --serve --index 0
+RuntimeDirectory=robot-ov5647
+RuntimeDirectoryPreserve=yes
+Restart=on-failure
+RestartSec=5
+TimeoutStopSec=15
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target

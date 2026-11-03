@@ -1,0 +1,86 @@
+[
+  {
+    "source": "legacy-project/src/uart/imu_parse.v",
+    "destination": "fpga/vendor/imu_parse.v",
+    "imported_sha256": "6cda8d83f6e9b4e2a776fd739c38dfdd471c821e9d797b5db69dff79ad7620db",
+    "local_changes": "Angle quadrant overflow and sqrt trial divisor fixed; 2026-10-13: reject nonfinite/wrong-length quaternion frames, clear partial UART/frame/conversion state on baud changes, reacquire baud after 500ms without valid output.",
+    "sha256": "aa6eea0e10450f2fd4095ae47f4374d2509f1f57ccae4fb5186bad0a351e01c3",
+    "previous_recorded_sha256": "b03f20f7c7f75190f9921703b724a1e54d8cb843e68ae920d7dc49ba1bc6033e"
+  },
+  {
+    "source": "legacy-project/src/motor/encoder_qdec.v",
+    "destination": "fpga/vendor/encoder_qdec.v",
+    "imported_sha256": "f044c7b7963f331e0747e35daba49af6ae574b64e79c08198573d4713fa0aecd",
+    "sha256": "f044c7b7963f331e0747e35daba49af6ae574b64e79c08198573d4713fa0aecd"
+  },
+  {
+    "source": "legacy-project/src/camera_init/ov5640_init_table_rgb.v",
+    "destination": "fpga/vendor/ov5640_init_table_rgb.v",
+    "imported_sha256": "9627310aeddbad7a09d5e786806bd3a039721db4b40fcc577f7a65821f6030aa",
+    "sha256": "6fde6a7dd6df338b3b91133f2bb01a8ca5bc1a6faaa319abf12c21135b1db123",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/camera_init/i2c_control/i2c_control.v",
+    "destination": "fpga/vendor/i2c_control.v",
+    "imported_sha256": "77435a56d5ecebcba2207792b94b3ad7fa9f018203c27bf14d0e9d095b0ec28e",
+    "sha256": "1726f029031dbc3e2fa0e678dfa1ff2cea7949529353d741ee4ba7b36f6e55bd",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/camera_init/i2c_control/i2c_bit_shift.v",
+    "destination": "fpga/vendor/i2c_bit_shift.v",
+    "imported_sha256": "e3a29f047c41eb5298db87cc5be4e217b432dbcd2cac5c2d281eedaa6dd9b091",
+    "sha256": "e3a29f047c41eb5298db87cc5be4e217b432dbcd2cac5c2d281eedaa6dd9b091",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/eth_udp_gmii/eth_udp_tx_gmii.v",
+    "destination": "fpga/vendor/eth_udp_tx_gmii.v",
+    "imported_sha256": "44f2e7f9dcd444f3300e72ac59a96eb7f28e19f06097274886316361412a74c2",
+    "sha256": "44f2e7f9dcd444f3300e72ac59a96eb7f28e19f06097274886316361412a74c2",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/eth_udp_gmii/ip_checksum.v",
+    "destination": "fpga/vendor/ip_checksum.v",
+    "imported_sha256": "20e74286feb737da7bcc9ff72b19ef9ee85d96f3bf6882bfb66572b76c84f856",
+    "sha256": "20e74286feb737da7bcc9ff72b19ef9ee85d96f3bf6882bfb66572b76c84f856",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/eth_udp_gmii/crc32_d8.v",
+    "destination": "fpga/vendor/crc32_d8.v",
+    "imported_sha256": "bc5f7b1ee9d60fa0ae75b1be7db055680c545e826ecafd86138c4f842d660f3d",
+    "sha256": "bc5f7b1ee9d60fa0ae75b1be7db055680c545e826ecafd86138c4f842d660f3d",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/gmii_rgmii_gmii/gmii_to_rgmii.v",
+    "destination": "fpga/vendor/gmii_to_rgmii.v",
+    "imported_sha256": "603dcd696f1eaf5a33153bccb32c954618b836a4684e5ca9941a565b97e25c91",
+    "sha256": "603dcd696f1eaf5a33153bccb32c954618b836a4684e5ca9941a565b97e25c91",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/gowin_pll/gowin_pll.v",
+    "destination": "fpga/vendor/gowin_pll.v",
+    "imported_sha256": "08759f94d64823d5a6d23935e3f10e80c174401ce30613d3f0dbe332fb7ad4e0",
+    "sha256": "08759f94d64823d5a6d23935e3f10e80c174401ce30613d3f0dbe332fb7ad4e0",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/gowin_pll/gowin_pll_mod.v",
+    "destination": "fpga/vendor/gowin_pll_mod.v",
+    "imported_sha256": "495395f7cf26ade4c10ba757b9f63753e1b000797007c2c9291e9b6c9bc23885",
+    "sha256": "495395f7cf26ade4c10ba757b9f63753e1b000797007c2c9291e9b6c9bc23885",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  },
+  {
+    "source": "ACG138-reference/project/hardware/fpga/camera_single/src/pll_init.v",
+    "destination": "fpga/vendor/pll_init.v",
+    "imported_sha256": "3fc6bef9a7086f0920bfa47265b1766854a53f6ca1c0f75084eaf6b6ef4d6258",
+    "sha256": "3fc6bef9a7086f0920bfa47265b1766854a53f6ca1c0f75084eaf6b6ef4d6258",
+    "restored_from": "audit_work/pre_remove_ov5640_20261026.zip"
+  }
+]

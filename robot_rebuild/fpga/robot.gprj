@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<Project>
+  <Template>FPGA</Template>
+  <Version>5</Version>
+  <Device name="GW5AT-60B" pn="GW5AT-LV60PG484AC1/I0">gw5at60b-002</Device>
+  <FileList>
+    <File path="rtl/camera_flow.v" type="file.verilog" enable="1" />
+    <File path="rtl/camera_probe.v" type="file.verilog" enable="1" />
+    <File path="rtl/command_rx.v" type="file.verilog" enable="1" />
+    <File path="rtl/dvp_init.v" type="file.verilog" enable="1" />
+    <File path="rtl/heading_control.v" type="file.verilog" enable="1" />
+    <File path="rtl/ir_remote.v" type="file.verilog" enable="1" />
+    <File path="rtl/lidar_bridge_rx.v" type="file.verilog" enable="1" />
+    <File path="rtl/lidar_ranges.v" type="file.verilog" enable="1" />
+    <File path="rtl/lidar_x3.v" type="file.verilog" enable="1" />
+    <File path="rtl/motion_feedback.v" type="file.verilog" enable="1" />
+    <File path="rtl/nav_config_rx.v" type="file.verilog" enable="1" />
+    <File path="rtl/navigation.v" type="file.verilog" enable="1" />
+    <File path="rtl/predictive_motion.v" type="file.verilog" enable="1" />
+    <File path="rtl/robot_top.v" type="file.verilog" enable="1" />
+    <File path="rtl/safety_control.v" type="file.verilog" enable="1" />
+    <File path="rtl/telemetry_tx.v" type="file.verilog" enable="1" />
+    <File path="rtl/turn_travel_guard.v" type="file.verilog" enable="1" />
+    <File path="rtl/uart_bytes.v" type="file.verilog" enable="1" />
+    <File path="rtl/ultrasonic.v" type="file.verilog" enable="1" />
+    <File path="rtl/vector_angle.v" type="file.verilog" enable="1" />
+    <File path="rtl/video_rows.v" type="file.verilog" enable="1" />
+    <File path="rtl/video_top.v" type="file.verilog" enable="1" />
+    <File path="rtl/wheel_control.v" type="file.verilog" enable="1" />
+    <File path="vendor/crc32_d8.v" type="file.verilog" enable="1" />
+    <File path="vendor/encoder_qdec.v" type="file.verilog" enable="1" />
+    <File path="vendor/eth_udp_tx_gmii.v" type="file.verilog" enable="1" />
+    <File path="vendor/gmii_to_rgmii.v" type="file.verilog" enable="1" />
+    <File path="vendor/gowin_pll.v" type="file.verilog" enable="1" />
+    <File path="vendor/gowin_pll_mod.v" type="file.verilog" enable="1" />
+    <File path="vendor/i2c_bit_shift.v" type="file.verilog" enable="1" />
+    <File path="vendor/i2c_control.v" type="file.verilog" enable="1" />
+    <File path="vendor/imu_parse.v" type="file.verilog" enable="1" />
+    <File path="vendor/ip_checksum.v" type="file.verilog" enable="1" />
+    <File path="vendor/ov5640_init_table_rgb.v" type="file.verilog" enable="1" />
+    <File path="vendor/pll_init.v" type="file.verilog" enable="1" />
+    <File path="robot.cst" type="file.cst" enable="1" />
+    <File path="robot.sdc" type="file.sdc" enable="1" />
+    <File path="rtl/lidar_scan_map.v" type="file.verilog" enable="1" />
+    <File path="rtl/lidar_envelope.v" type="file.verilog" enable="1" />
+    <File path="rtl/lidar_lattice_rom.v" type="file.verilog" enable="1" />
+    <File path="rtl/lidar_lattice.v" type="file.verilog" enable="1" />
+    <File path="rtl/lidar_controller.v" type="file.verilog" enable="1" />
+  </FileList>
+</Project>

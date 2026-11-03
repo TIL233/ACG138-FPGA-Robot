@@ -1,0 +1,7 @@
+{
+  "fps": 10,
+  "segment_seconds": 300,
+  "minimum_free_mb": 512,
+  "max_segment_mb": 256,
+  "usb_mount": ""
+}

@@ -1,0 +1,908 @@
+{
+  "snapshot_date": "2026-11-03",
+  "hash_rule": "sha256_lf normalizes CRLF to LF and removes a UTF-8 BOM; original file encoding is preserved, including legacy vendor comments",
+  "original_sources_unchanged": true,
+  "rtl_sources_unchanged": true,
+  "existing_source_files_modified_for_portability": [
+    "robot_rebuild/rk/install_usb_automount.py",
+    "robot_rebuild/rk/robot-usb.mount.in",
+    "robot_rebuild/tests/run_rtl.ps1",
+    "ch341_driver_work/board_access.py"
+  ],
+  "rtl_testbenches_passed": 81,
+  "python_tests_passed": 448,
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256_lf": "554ddc3ac25e279110c632f60bd841f8aa179b5ef1720c963dd49fc3bb0e4339"
+    },
+    {
+      "path": ".gitignore",
+      "sha256_lf": "3c061b3c6e839d2740368d14eac397083cbe4928c252da4c59e44554419d456c"
+    },
+    {
+      "path": "README.md",
+      "sha256_lf": "932d6c762b5aac175a1ba0f4b3d8bac5d7bbc5078306f6ba2be97a5e3c54b84e"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "sha256_lf": "9ba57c03a14f46ed3e3e0d4596e1eb44f666eb339378e81c889bee62397396f1"
+    },
+    {
+      "path": "ch341_driver_work/board_access.py",
+      "sha256_lf": "f16b29c94b59937164aa5e4275a1e87905d3257fd3bc7e026cba999d88dae570"
+    },
+    {
+      "path": "ch341_driver_work/browser_viewer.py",
+      "sha256_lf": "15d0731ec04a3d529d9a3322621aa4d7e99e87a7c49722ffd87a1e72eeee894b"
+    },
+    {
+      "path": "ch341_driver_work/hdmi_camera.py",
+      "sha256_lf": "c6898bf9bcb24c38c141c5b9d1c70ded5e6a02d976a1226e5fe4c08457b9cd29"
+    },
+    {
+      "path": "ch341_driver_work/hdmi_telemetry.py",
+      "sha256_lf": "3b02d1d39b3e9ff19539c46927db206f51895a5a2b86398db439ec3dd2d00ddf"
+    },
+    {
+      "path": "ch341_driver_work/restore_hdmi_display.sh",
+      "sha256_lf": "a8438444df263396661b468062a5b539886024dece22f3d9198c2a8b1d82062a"
+    },
+    {
+      "path": "ch341_driver_work/robot-hdmi-display.desktop",
+      "sha256_lf": "48dabcd3164a33fd320a8142c021fe781986dac48de57426ce3411dd8327b892"
+    },
+    {
+      "path": "ch341_driver_work/sync_hdmi.py",
+      "sha256_lf": "9c042cfafab67b10fed7166d061627ea3a6564ff31eaa45e4cd55896732a5f2f"
+    },
+    {
+      "path": "docs/ARCHITECTURE.md",
+      "sha256_lf": "ce4e07ecd9f968ef711442fb87e2028904f3386f9caed1ba10c8fc589ed5888a"
+    },
+    {
+      "path": "docs/BUILD.md",
+      "sha256_lf": "06300ba622d585d24cc8c05c8105e46c70d01db793d18ad7ee9eea28d7d75364"
+    },
+    {
+      "path": "docs/OPERATIONS.md",
+      "sha256_lf": "002b0738f58cbd3ceae54fe5dfc440e9f8810976c7abba3bfe8b1f5d9768de55"
+    },
+    {
+      "path": "docs/RK_DEPLOY.md",
+      "sha256_lf": "46a2c0d568edfb270cbdfd0f93f704abc90705907718011f777534cd6cca048e"
+    },
+    {
+      "path": "docs/STATUS.md",
+      "sha256_lf": "f5a506bc9bdeb68af76a28149d7536d73bcf6aa254a353c2acae290f9cad3c7b"
+    },
+    {
+      "path": "docs/UPLOAD.md",
+      "sha256_lf": "243a52cbfee979a1f51138b7cc48fecaa63b528c4e845bc60d773d867972fa51"
+    },
+    {
+      "path": "docs/VALIDATION.md",
+      "sha256_lf": "d6644f9558f75234adae3d1e4110753cec02dde6803fe0749b488acb6d2a6bdf"
+    },
+    {
+      "path": "docs/WIRING.md",
+      "sha256_lf": "d107a28a51969f3fee938392fd51810ed82d253180faf6f521525b1a9c23bca8"
+    },
+    {
+      "path": "docs/model_manifest.json",
+      "sha256_lf": "71a1dfc0af3b137e0da7da61a87577ede023075a5f2df6fcb6b8dab80e15ffa2"
+    },
+    {
+      "path": "requirements-dev.txt",
+      "sha256_lf": "71110851a9f4a719f559c1a4db49e766c6166f5ee54d91f2b5daa1c51f2e138e"
+    },
+    {
+      "path": "robot_rebuild/docs/source_manifest.json",
+      "sha256_lf": "2a9122881b9797f09480a9d26275117d9a5491e38b464ce9dbb623f241a5190d"
+    },
+    {
+      "path": "robot_rebuild/fpga/build.tcl",
+      "sha256_lf": "a1302a07361d5ba72f6af6d19629e05e2bfc508347fafb63390f43fecfd51463"
+    },
+    {
+      "path": "robot_rebuild/fpga/robot.cst",
+      "sha256_lf": "f9d2cdd1ed865ffc05a053df6e8d5428a80f28d8b77b61cd3579fafe2e23cc55"
+    },
+    {
+      "path": "robot_rebuild/fpga/robot.gprj",
+      "sha256_lf": "eb4d0ba54e99f158ca42bb9b187be69ae2abd01106157d5fe3e8ca9e01dde30a"
+    },
+    {
+      "path": "robot_rebuild/fpga/robot.sdc",
+      "sha256_lf": "c9416a3fbc0da6ed693cb79120436ee4a0e958ed59794dbd305d5e836bfb68a6"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/camera_flow.v",
+      "sha256_lf": "6d5d7c3cd201b44158dfeee7539d01d03a9caef432cc43cc1e43cc86936791ff"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/camera_probe.v",
+      "sha256_lf": "8062239b742ba1f78065ee847282dad6a0a1b2685224594d35de6e16b0c527e5"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/command_rx.v",
+      "sha256_lf": "fea6294b71a4dd3731dc1dfb8c4edf9eaffb5b219bccbec15a0ed15f02bf2b7a"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/dvp_init.v",
+      "sha256_lf": "9da9fff72af33910c3b89e300224707dbf9413581976eac99cb51e5d69bc1c46"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/heading_control.v",
+      "sha256_lf": "ad0fa8a588089b1f33efa2cfd089e34cae1ca6483aa692d385a233c0656a88be"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/ir_remote.v",
+      "sha256_lf": "eb0e91069e4de0651ba984f49bd8944dbc21ef7eb6cf28b5943e31f6f64d252c"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_bridge_rx.v",
+      "sha256_lf": "08e9b717f0da451b910756a66f3b4d430dc2caa6a029cdd45443579da46b4333"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_controller.v",
+      "sha256_lf": "552a47fcab4bf9a61fc294869b69ee49de94d2c3810351635f41d18a91b438be"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_envelope.v",
+      "sha256_lf": "346b0b2531ad38337b498d038133c28185a92b249b5c5411bbb747f3786eb356"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_lattice.v",
+      "sha256_lf": "a90a2b32df66e9388f5c1242e436e46fc7388fade4c20ee541a9cf327c23c03f"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_lattice_rom.json",
+      "sha256_lf": "dcfa37a1667173f60a1229cca46bfd456cf598b160b796cd962ac1ce741f16f4"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_lattice_rom.v",
+      "sha256_lf": "5f2adb5327f36a32f22c90f8e5b903d2fbb90c4070805929486e88a9ce1d1226"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_ranges.v",
+      "sha256_lf": "8240f918285b747ede809bfc5099d725c2a0677e04da6d14440c23579da76a88"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_scan_map.v",
+      "sha256_lf": "a53d63909387efbcce66dc7633086f657bce96036f85e1ba4a196695d4804fa3"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/lidar_x3.v",
+      "sha256_lf": "c4807b9379aacd155898d75fdb13ac38d2db596fde066e045a9178032b44d597"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/motion_feedback.v",
+      "sha256_lf": "ca8d88bbbe0a4da0dc46439dcb45043ea65c23f8ae5717a01ed3f0dcd100e35f"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/nav_config_rx.v",
+      "sha256_lf": "08c66d634c3859a2f51d1a3fceec4bcdcfcf6d1a5a91259724a930cd76634c54"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/navigation.v",
+      "sha256_lf": "f32a1ced566f044eb09a72e54ccaa4016b8c8323a9fad9e1aefed8476525cf44"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/predictive_motion.v",
+      "sha256_lf": "d4eacdd49978f0e9231909ba760f71b5680d0394a0bd9c29eb061e2f7a014f82"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/robot_top.v",
+      "sha256_lf": "5fd6200d449031b6601b84f991507a9addbf4a1c2d9b4c4baeab4fadb0a1dbbc"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/safety_control.v",
+      "sha256_lf": "dd173fd7c1dba50bc906e4edfdbac78f1042794ac86f1e4f911815b15136aa98"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/telemetry_tx.v",
+      "sha256_lf": "78c9a76ff91fad8e491d7224afdada86f2641139b6eea5ac49f1a8938052dc46"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/turn_travel_guard.v",
+      "sha256_lf": "87b98bfd271fb2eff1ba851b404bc2777b78ce765e74d50ac6abfebe80d82394"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/uart_bytes.v",
+      "sha256_lf": "7343b6678cc72a5552bd52272712e92f4f3b835ad196f9555e7128c38f3aefb1"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/ultrasonic.v",
+      "sha256_lf": "eaccfa9b1898f654b709675c6881029a58da6ffd4c2f77e27cc2d422cbc0f439"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/vector_angle.v",
+      "sha256_lf": "3e04b10d2afec86485e587c5acb52b076231856791ee40b8711e53028629e38d"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/video_rows.v",
+      "sha256_lf": "1d173cdff6bdba5e014b818c1c56f894ef52274c4c59196a6dcee5de1608be27"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/video_top.v",
+      "sha256_lf": "e7febdfd8b37c4f28bfa6e8ca9709730eda9ddd75956141a86dc44269e3aab0f"
+    },
+    {
+      "path": "robot_rebuild/fpga/rtl/wheel_control.v",
+      "sha256_lf": "d47f5bdaee65edf5e145ea86c73b2b16cec6adf1feedc9205487f14faa604a20"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/crc32_d8.v",
+      "sha256_lf": "c2bd0b5af84a7623ede3b67420e5435f2776987ff94f149b67f60a30e666b307"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/encoder_qdec.v",
+      "sha256_lf": "f044c7b7963f331e0747e35daba49af6ae574b64e79c08198573d4713fa0aecd"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/eth_udp_tx_gmii.v",
+      "sha256_lf": "949e6bbad8e6b5a47a5765bff93de5c25903c1dc2da3434fb44dfbdbe05142d0"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/gmii_to_rgmii.v",
+      "sha256_lf": "e05c5cb0f878e675d703d169dc8481afa1a647ccb2027cd1c78b4c42ae432a65"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/gowin_pll.v",
+      "sha256_lf": "9c03cc82afaa396ec2b6ed48a63f1cca37023e67a0511f1ffb687ed9efe55d1f"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/gowin_pll_mod.v",
+      "sha256_lf": "acb136757114fab6113653b675659c17ef8d5ae51b1d66c971fd24bc8f2dc986"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/i2c_bit_shift.v",
+      "sha256_lf": "e3a29f047c41eb5298db87cc5be4e217b432dbcd2cac5c2d281eedaa6dd9b091"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/i2c_control.v",
+      "sha256_lf": "1726f029031dbc3e2fa0e678dfa1ff2cea7949529353d741ee4ba7b36f6e55bd"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/imu_parse.v",
+      "sha256_lf": "e21105e32205b3a98d349fab5fdedb314d90b5f8ddc9cd6822d718c7acdb1ccc"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/ip_checksum.v",
+      "sha256_lf": "ea6aba7a57d155ad7440364e5a2c05366630677b03feeb8de1837680acc5da70"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/ov5640_init_table_rgb.v",
+      "sha256_lf": "6fde6a7dd6df338b3b91133f2bb01a8ca5bc1a6faaa319abf12c21135b1db123"
+    },
+    {
+      "path": "robot_rebuild/fpga/vendor/pll_init.v",
+      "sha256_lf": "3fc6bef9a7086f0920bfa47265b1766854a53f6ca1c0f75084eaf6b6ef4d6258"
+    },
+    {
+      "path": "robot_rebuild/rk/camera_capture.py",
+      "sha256_lf": "5c31367189c53d8be9d779be2acb7d1a1775d145ab4373181c8c8a45a226faa6"
+    },
+    {
+      "path": "robot_rebuild/rk/camera_config.fpga.json",
+      "sha256_lf": "b5d5990c6b59afdfeeb551a9b7c5a67eba6d6bbb6ac300fde966aabad5b07621"
+    },
+    {
+      "path": "robot_rebuild/rk/camera_config.json",
+      "sha256_lf": "bb845177267fc63a1b8109a7dbd2850e2a0da996a9f36098ca70a2dd33372b9b"
+    },
+    {
+      "path": "robot_rebuild/rk/camera_config.ov5647.json",
+      "sha256_lf": "bb845177267fc63a1b8109a7dbd2850e2a0da996a9f36098ca70a2dd33372b9b"
+    },
+    {
+      "path": "robot_rebuild/rk/csi_capture.py",
+      "sha256_lf": "6a99e837fabab55f8e6c6d7ea3a374e7e33fd983c0947450a07c03d684b265b2"
+    },
+    {
+      "path": "robot_rebuild/rk/detector.py",
+      "sha256_lf": "9877f6d7ff462793864a9dd31e5433d4f925d4d968cd42705783e630373d7da6"
+    },
+    {
+      "path": "robot_rebuild/rk/follow.py",
+      "sha256_lf": "cfd76329d54171a81f3b0ce7f775a73972f840934c431484060e1635ef35dd77"
+    },
+    {
+      "path": "robot_rebuild/rk/install_usb_automount.py",
+      "sha256_lf": "0db08071838cfaffa348535c3c6bb54866d0967612bc66f9926ed02557cb1b39"
+    },
+    {
+      "path": "robot_rebuild/rk/lidar_map_view.py",
+      "sha256_lf": "dcb9a5ad44566bc7c072936650cb5d755cc53ce34f9169492fe41c53a468659f"
+    },
+    {
+      "path": "robot_rebuild/rk/lidar_planning.py",
+      "sha256_lf": "bfca12f4c6ff1dc599774ecd1ea4b7bf0327e3091f388b3f0714256e77ae1d19"
+    },
+    {
+      "path": "robot_rebuild/rk/main.py",
+      "sha256_lf": "f957796d257b145b716f599f1344109f92f4c447027d54fee1bc2ae1dc825830"
+    },
+    {
+      "path": "robot_rebuild/rk/mission.py",
+      "sha256_lf": "cf46940814c8a2db723d12af8f0c9013a2a8e4b635982a1a9b3c8d3fa69f7626"
+    },
+    {
+      "path": "robot_rebuild/rk/mission_bottle_example.json",
+      "sha256_lf": "15adf2e531db665f0d6fb1525779fb3a85b0531506fc0d3ced7bdbbea88a605a"
+    },
+    {
+      "path": "robot_rebuild/rk/mission_example.json",
+      "sha256_lf": "bc5c0fe8c9dc6a98384364826df726c9cd073cfc898918bbaf2f84b5ff082291"
+    },
+    {
+      "path": "robot_rebuild/rk/mission_semantic_example.json",
+      "sha256_lf": "076e33175dcea3c105cec9834770e0c63323837c4959366ee306f2f74f637dd4"
+    },
+    {
+      "path": "robot_rebuild/rk/navigation.py",
+      "sha256_lf": "ab155a3f93dcdebad772a478149ed0bb8a07e903280046c709e745ade36b3517"
+    },
+    {
+      "path": "robot_rebuild/rk/ov5647_raw_capture.py",
+      "sha256_lf": "595e18cc299ce466e1eca7cd7deb4ebd396f61943228908e03e73ea14b4522d2"
+    },
+    {
+      "path": "robot_rebuild/rk/prepare_ov5647.py",
+      "sha256_lf": "e5a55c24ab9d51c34aae5f4401c69bfa6e37e797ae13f097a3ae2ed98e1d4071"
+    },
+    {
+      "path": "robot_rebuild/rk/protocol.py",
+      "sha256_lf": "883f48f1e8e2e2ca4c383dd8d2945500078560ef86cc95bf13212c9aeed3ed53"
+    },
+    {
+      "path": "robot_rebuild/rk/recording_config.json",
+      "sha256_lf": "e7dee6d0ce650ddc4079b7290be1951176a2f353fc3857a58d49c76798f96b89"
+    },
+    {
+      "path": "robot_rebuild/rk/recording_overlay.py",
+      "sha256_lf": "8492b58131f15285547d03a947760e4787e64ed9e8c56a6cb35e2d1b17ed090b"
+    },
+    {
+      "path": "robot_rebuild/rk/requirements.txt",
+      "sha256_lf": "2f2acfb28d646600600f4e7d0b9a7f574df2b8fc25061872d8ad516818042573"
+    },
+    {
+      "path": "robot_rebuild/rk/rkaiq_single_camera.c",
+      "sha256_lf": "fd4da636f84fa04682ca679dd7d687036b0fae95b55a430a737fe3c563d2cdf5"
+    },
+    {
+      "path": "robot_rebuild/rk/robot-ov5647.service",
+      "sha256_lf": "3bfcd37457bbd21f68cddffad08c18e48789782fdaebbfa88c7f0dbcae3d31ee"
+    },
+    {
+      "path": "robot_rebuild/rk/robot-usb.mount.in",
+      "sha256_lf": "095dfbe3f0c2e24ab265c8d7aa44e1ef1a5954fc76f653104ad5bda6f986795d"
+    },
+    {
+      "path": "robot_rebuild/rk/route_example.json",
+      "sha256_lf": "b9f015905ca8e5825b14cd1efed4a03e547bd8ae2fcae7d3122dfb598e2640e6"
+    },
+    {
+      "path": "robot_rebuild/rk/usb_lidar.py",
+      "sha256_lf": "67ef2227bab354cb21b3a57543874cb72fe8a5a09619d1704cce2bf1786e6049"
+    },
+    {
+      "path": "robot_rebuild/rk/usb_lidar_config.json",
+      "sha256_lf": "0d90629742ac786994325c1f007f0ec6e3f2882ea896bf06301556f4c28c918a"
+    },
+    {
+      "path": "robot_rebuild/rk/video.py",
+      "sha256_lf": "bda9eff18c867ed032dffcc3f0576bb12b264bd45a63539e1f92f2eafdddd945"
+    },
+    {
+      "path": "robot_rebuild/rk/video_recording.py",
+      "sha256_lf": "01fb016605de58afce17a41e69ddcd34abc57b222571aa3cabb7271727b25386"
+    },
+    {
+      "path": "robot_rebuild/tests/angle_vectors.txt",
+      "sha256_lf": "113edcb5977392c788d2ee82675815a5e5e9a26ac718cfba1b3177964d560935"
+    },
+    {
+      "path": "robot_rebuild/tests/modelsim.ini",
+      "sha256_lf": "87b2d6ccc272c1cda0a35e1ded19ca69025107501d09fa7bc749ecedbfb37341"
+    },
+    {
+      "path": "robot_rebuild/tests/run_rtl.ps1",
+      "sha256_lf": "a5d67694caf5acc39ea3632b2119d37825606777aa54111ed078e816ef165d66"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_angles.sv",
+      "sha256_lf": "3828d73a056e5b9853e7a9d264df93acae52b8ab9a9027f3dcad9cd7db3f4253"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_camera_diag_wire.sv",
+      "sha256_lf": "d3056c6f42fdfac4d042837b4bcfc2d6fd9ba548d0acc008cac3f1ae63e98706"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_camera_duty_wire.sv",
+      "sha256_lf": "f769c16df196248e332ca2aad86918656fafefdc23d58f52275d62b4a3d20210"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_camera_flow.sv",
+      "sha256_lf": "e5fe49119ae2098da5416f5faa716071cb4fa42c96ecc06c38167d4dca9105e7"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_camera_flow_wire.sv",
+      "sha256_lf": "2b398e152028a57ccbc690191354ef2bbf958ac50e61c62da11a398bfffd7049"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_camera_line_wire.sv",
+      "sha256_lf": "4c8f76ad2b9e83a6af9c600f73bed8d890c78c5d4b9eb2be98a5d468d8fafdb5"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_camera_probe.sv",
+      "sha256_lf": "e321649cc90ab66d17381a2bcd083d85f42f46694ac77f045692af5908dc27d7"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_camera_sccb_read.sv",
+      "sha256_lf": "5c57bb4679f1eac289f86f922c29f9811cc16be392f08bf3b404090115ec8d74"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_control.sv",
+      "sha256_lf": "ea5b8688491d1df4256c449ef8e54ac36060d78938843b969d11a634c9c36c58"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_dvp_init.sv",
+      "sha256_lf": "76bf555925afb7eda079472bcfb4982d613dda1c639e4e49e9d5ca7a34fe75ad"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_encoder_heading_independent.sv",
+      "sha256_lf": "579eea722fecb2c4fd0b0c45d728795295d5dabe645c6c91ca429ef4a99fdd74"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_follow_detour_cancel.sv",
+      "sha256_lf": "094588b3e82854ebc8e5742249479b9a00614c14de8383d4becbc474628f2eed"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_follow_mode.sv",
+      "sha256_lf": "de213e287bfbb9259abc94aa6d35669f0107bf1903ef646b4c02877d825f6f8e"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_follow_speed.sv",
+      "sha256_lf": "4eaa09a05a30073aa3e70d1c12d4333a066955b4e6f9245c02042e7281b9effd"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_fresh.sv",
+      "sha256_lf": "1f8c342d018d60d6a51ef4a9c1662d4547c91878c37475199e5af25876703013"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_heading_control.sv",
+      "sha256_lf": "fcb71bdf79900000be1a8329849d4b4baa2283b35b2099966c031036949ad86e"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_imu.sv",
+      "sha256_lf": "d75a23d0ae35cc05f32b6b9c9ff92021ee5b6d7740044bccb23c5050a89aaa32"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_imu_angle_boundary.sv",
+      "sha256_lf": "65f36def74489fddf6cb97bbb02a903fd1e9b31b697453faa03f545c37c394b7"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_advanced_top.sv",
+      "sha256_lf": "44523fb3d5703c48826b7bdadd403a1ece3f769757b07053ef80e78f4d12954a"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_avoidance.sv",
+      "sha256_lf": "62023206d797dc93723d1279b21295a39b39e546e1ebc5f18e0dc3cbfe452475"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_controller.sv",
+      "sha256_lf": "26e27959fe58b9f497335313dddb3591f902fa95527b0585ff1489c6c717793d"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_envelope.sv",
+      "sha256_lf": "b2981e99573cdb73d868ebf7e7131eea72aee330cd0a01bc355b2a897ed98e5d"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_lattice.sv",
+      "sha256_lf": "dcdfa0db2178790fa9167af0f4333f1702204f7cccda02be44c3f621563ee61a"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_map_wire.sv",
+      "sha256_lf": "b887769f012012441d716c86d9853ff5bf3a57aa799b9fdcee4cf12e6e9270d9"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_packet.sv",
+      "sha256_lf": "8f6b73f6952c5ef063bfe77a404188b3b19e2945c6d1f746c784e068a0cfa3ac"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_pi_continuity.sv",
+      "sha256_lf": "df1f9201202d886c4a81a43f89fb79885c5641f4fb824c4fb7f1653a49582e72"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_planning_wire.sv",
+      "sha256_lf": "065144a10fe6584ae37e511160b1bc906e043e60292cf329b252f0b9a6d2a699"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_predictive_top.sv",
+      "sha256_lf": "b1cd6416abd77dba5986b0514a102c7cc50a29f7e38efb7e2719f06ab5ae3ecd"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_ranges.sv",
+      "sha256_lf": "3aff46fdf26b13e109cf38caaa0455f77d9954f9d76e6176dfc010834ff3330b"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_scan_map.sv",
+      "sha256_lf": "1bae856f524bdac76da112a0badb6b6da9147ec3b23f882159076b9e8a9f2dea"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_sectors.sv",
+      "sha256_lf": "80b73201d23cd32a6fb25db384442556a15707a27dc5228b619837356eb0f11d"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_top.sv",
+      "sha256_lf": "1f74a32a8e0b5c62b3fd79e6fcc25112adf81007f80ebe80374815f4b0043c5a"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_uart.sv",
+      "sha256_lf": "3606f74db150d9538ddd82f16c42b98f5f1df79c584d46be772ed30d703c7183"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_lidar_wire.sv",
+      "sha256_lf": "c4079bcabe012a88489a1fc590d948765e965aad6b8a964f6013ee4484821563"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_mission_stop.sv",
+      "sha256_lf": "35fef631df45a3d59dd6a79d739212806068ec84c2e2e4df7c734bd6d804f97e"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_motion_feedback.sv",
+      "sha256_lf": "217f3a7a2c03b7da392df3ac8997cdf3d5367092ad8121a7b4ed5736cd304270"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_motion_wire.sv",
+      "sha256_lf": "4658e8d95ac6db5eca3ba30a4a95f23ac6b6e1a9d8429d6d7c578cd8a9a7fe9f"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_nav_config.sv",
+      "sha256_lf": "0fe371bed45b5f9f79685b85be49fba72302a36f1ff936ba5730f69eb3068960"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_nav_config_jitter.sv",
+      "sha256_lf": "d50e93eda0dc22477f63a13d3a6788686f0ae12b3d2d25dfa3f8f679e6b9d329"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_navigation.sv",
+      "sha256_lf": "41e65fe52c7ca1580c7094d9829955a950df67b0f8c260f3968d99df409dc01b"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_navigation_encoder_heading.sv",
+      "sha256_lf": "b1b3cfbabfdb39a5f34ec1fcd834cef1b11dd69f6e3f78a8e0a3df460ceba4a7"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_navigation_heading_source_switch.sv",
+      "sha256_lf": "60b55465603d84473f648ce913c16e12801fb194abe8b05448755749157e7d2c"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_navigation_integration.sv",
+      "sha256_lf": "1fdddbf3424e1ff1e27f562b1bfdc2f2016ec53437b3f3615e541b0bf23ba6d2"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_navigation_local_steering.sv",
+      "sha256_lf": "e30990a618f4f3f2996af335dc3b90d9220835d78c310bb37f2aa3c4b2f40132"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_navigation_near_equivalence.sv",
+      "sha256_lf": "48c7a4da9637039501053cb33488928543698bab0c28f7dd1e045778fe9e7277"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_navigation_settle_jitter.sv",
+      "sha256_lf": "b401edc4b1412a72b29e90da6c33b40ccd6f0a2e479c7628dd639ae39fd77651"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_predictive_motion.sv",
+      "sha256_lf": "b92f9787b3afc3e6955a9974800a356dbe28733066f6ca34e45553c9239c8c25"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_predictive_offset_equivalence.sv",
+      "sha256_lf": "3fb0a24c0ee339665e432774b870015afb97b4e3f31cd77389d89f80956cc8a7"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_predictive_wire.sv",
+      "sha256_lf": "149fd19c2f6905e13c175947e46a08c8fc8bd0470295c7b85fd17bc175c521ed"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_protocol.sv",
+      "sha256_lf": "1dc3ec46cbdae8d723880442a609689320a28951597f52c251d3b77707e2b122"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_record_remote.sv",
+      "sha256_lf": "18a2af49aa970eff50a4ae6da2aa863c50162007fdb13fc8fbec4b527c095f6d"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_remote.sv",
+      "sha256_lf": "1de422389aaa5867ec37405836abcc413ba245faeeb4cbced1a8e74e23abf1f4"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_remote0_event.sv",
+      "sha256_lf": "444e1ea037b88f27a94bd7f65562c888228317cf65c4f34264f27d63ab2b2d00"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_remote0_wire.sv",
+      "sha256_lf": "d2945cdd893eaf02979a232dc6f0bd98efee7bf80a935bad7da000c8458085a6"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_remote7_event.sv",
+      "sha256_lf": "104df8b4a3b66f8a53871799094cb45e1c020b655f3ce456b5257fc8e36636a6"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_remote7_wire.sv",
+      "sha256_lf": "602964ed68a553bfee570dd50dc0f730a7722b762a57c42be21e8e9e1f3a1457"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_remote_bounds.sv",
+      "sha256_lf": "e9a1cfee7a74a89bda0612a322e118efff4005f67afe0dab1c508417c01b14e7"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_safety_decision_equivalence.sv",
+      "sha256_lf": "7db753b13d455fea7f1bfa6df1748e1ed97297129279faa55464c6f403241f72"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_settle_jitter.sv",
+      "sha256_lf": "93bf842681bc9c290cf8d564621c8a65aadfb0485b384f20dce4ec04687dd319"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_sonar_optional.sv",
+      "sha256_lf": "ed22aa25f8cba899d0185f6c98a6138d6e5b3e23782aa66148740555dc4da42e"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_top_actuator_owner.sv",
+      "sha256_lf": "86992cd2c3c34513a04b165902b764d812e894d97440b14a36b64cea425f2640"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_top_brake_pipeline.sv",
+      "sha256_lf": "9e16af5e82f638edd0557d1684ea4ce914c3505c4fe253c9d197013e53a6c749"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_top_manual_goal_equivalence.sv",
+      "sha256_lf": "14205c7fd58ac1aa2726f52fe7f99c07f07fd5dce6ab6149defbdca060fe5809"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_turn_guard_integration.sv",
+      "sha256_lf": "2054c2221b762df2d2d52d80a072d5a9c2e2a35b259e081b5d50f004abef210a"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_turn_settling.sv",
+      "sha256_lf": "822a96b5a080a07ac45711b9163a00a46ca9c63290baceec4f04d0481bfce51d"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_turn_tolerant_completion.sv",
+      "sha256_lf": "edb6c639ef17aabbc237313d960eb83e507c40caa1001ba381fcc639c8f72f56"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_turn_travel_guard.sv",
+      "sha256_lf": "f744dc938e972a9bc38f75703f9b3b68989839e73fd3911266f41541619ea3ab"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_uart_noise.sv",
+      "sha256_lf": "12c66dd181580df648354671b8363742973c3d0c89d00d6ab6701f50aa700286"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_ultra_far.sv",
+      "sha256_lf": "52a3c419179e2ce55d8b352439b4c127c85ab7c17294d578a2ae444d0cb75e80"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_usb_lidar_demux.sv",
+      "sha256_lf": "09463e7fd84be0bf6315e8133a1fc6e5ef4f064113f5606a1ec286a0e1be96b4"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_usb_lidar_stream.sv",
+      "sha256_lf": "4707791dc9f515a35e0952ff95f906df25316eddec38240f1e819ac9522035ea"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_usb_lidar_throughput.sv",
+      "sha256_lf": "1db03481316e4a2f9fc62e91ce9a2788842125ed68be32893ec16c5326b11434"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_usb_lidar_top.sv",
+      "sha256_lf": "ec8c899a5610c547bdafac3bdd8cbca75ed1042151109257e3d4d9e819cdb45c"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_vector_angle.sv",
+      "sha256_lf": "c3b3775d72163a27458086cd0877443d4f1ab30cf003449e598496bac423960f"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_video.sv",
+      "sha256_lf": "0347888b7998cb95eda4f6adc03f96ea2bc6f7ba9d57606564a718a260919696"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_video_flow.sv",
+      "sha256_lf": "d57c39c57231faa858ccc2de3bd77e53e60073d0fe82d77e5c943a7fc4cf37d5"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_wheel.sv",
+      "sha256_lf": "ac14f7913e7a702acf914e5886546213e7cce0f320c61eca15c21d48ad4ce4e8"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_wheel_actuator_boundary.sv",
+      "sha256_lf": "e6c9acf4c1a130157e4fe3468b102db6282e947c6566dd167e9e0949a3645031"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_wheel_low_speed.sv",
+      "sha256_lf": "0dfcbd2fb45e23dda03af85f199e2bf121d06440c16b3816e49275bda32aa881"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_wheel_pipeline.sv",
+      "sha256_lf": "ce63639cf857b0ae2a8926a0d8636ae7c43dd9c29b0cc11a166d5e362007c722"
+    },
+    {
+      "path": "robot_rebuild/tests/tb_wheel_planner_pause.sv",
+      "sha256_lf": "e2bb675334a02c671041d0653040e6a0e9d7dc8dd8e59e0a41abcc91fb68531c"
+    },
+    {
+      "path": "robot_rebuild/tests/test_camera_diagnostic.py",
+      "sha256_lf": "0f1f8cf272833ce57bbde09d32f6b52dcbd2b2a21dbf1ccb5c6e5858e0e469c2"
+    },
+    {
+      "path": "robot_rebuild/tests/test_export_lidar_planning.py",
+      "sha256_lf": "7be7af52e3b1616f574b2711890b7bf143680f7d23fe81b0b7b1e1f39f6aca59"
+    },
+    {
+      "path": "robot_rebuild/tests/test_follow.py",
+      "sha256_lf": "2c41b23950a312ea376e68352b56d810fe517ef411084db826b1fc7f8e9a056c"
+    },
+    {
+      "path": "robot_rebuild/tests/test_follow_speed_protocol.py",
+      "sha256_lf": "3b0fbdd0f412593509068cdf49219f06fbcd93a0f93e60b645e571035577fba9"
+    },
+    {
+      "path": "robot_rebuild/tests/test_hdmi_lifecycle.py",
+      "sha256_lf": "a614e0ffc52d0fcf848fe287f47cb3ccef843665751b29a9ca795b691c50fdee"
+    },
+    {
+      "path": "robot_rebuild/tests/test_host.py",
+      "sha256_lf": "705b769edf0a1166bd83f5a33287e4e987e97cd1f788e02eb35948dd3d08a8ad"
+    },
+    {
+      "path": "robot_rebuild/tests/test_host_lifecycle.py",
+      "sha256_lf": "9c4e3975f7701ee7345d49a4afb670a67600e22e625141174c671fb91b8f8709"
+    },
+    {
+      "path": "robot_rebuild/tests/test_lidar_lattice_rom.py",
+      "sha256_lf": "9c664d662f5bdd6af42d9e9fdffa7f3716ff135366993bf93bb8fbc1597c9cb5"
+    },
+    {
+      "path": "robot_rebuild/tests/test_lidar_map_protocol.py",
+      "sha256_lf": "6c955a14494692a1db170c6331cc224e7c9fc15b3cddee8431d916550cebafec"
+    },
+    {
+      "path": "robot_rebuild/tests/test_lidar_map_view.py",
+      "sha256_lf": "5e56de17b259b2d913ccc5c5447e6b2b8d42070290fdeb8b2ec228cba7f8611d"
+    },
+    {
+      "path": "robot_rebuild/tests/test_lidar_planning.py",
+      "sha256_lf": "9cf55b513f073c02f2254c6f3267570bce3b5c3b4ff78eacedd0111098b53ad2"
+    },
+    {
+      "path": "robot_rebuild/tests/test_lidar_planning_viewer.py",
+      "sha256_lf": "edb01458f2c900a4d71db8a80c532a5b87caeef25d1898b93aafeddc57f6dc53"
+    },
+    {
+      "path": "robot_rebuild/tests/test_lidar_protocol.py",
+      "sha256_lf": "3b281491a0adcd2cb54c764747770409961b11cf5c4824b6b6752b55c4056a5b"
+    },
+    {
+      "path": "robot_rebuild/tests/test_lidar_usb_transport.py",
+      "sha256_lf": "58655cd155f09df230407a325d3ef40ac35ab7be586e26771d45ae03a7ed6996"
+    },
+    {
+      "path": "robot_rebuild/tests/test_mission.py",
+      "sha256_lf": "9345d90fb1f856b05ef4ef49055ffbb63f69777251b7d384e04e860cf658e347"
+    },
+    {
+      "path": "robot_rebuild/tests/test_mission_instruction.py",
+      "sha256_lf": "30b6d98a75e4609b92b480728a69d400037b1f594bb0d848b0b6bd1245f0698f"
+    },
+    {
+      "path": "robot_rebuild/tests/test_mission_stop_protocol.py",
+      "sha256_lf": "a3f007714d1f743c68e139a5697f6872b71bf20213bdf3dc211d9b50f4aaa268"
+    },
+    {
+      "path": "robot_rebuild/tests/test_model.py",
+      "sha256_lf": "9b4349f1b1e937f74e2a1cf0b367f521c155cfc1fab6b88861cfd32bb89f5a43"
+    },
+    {
+      "path": "robot_rebuild/tests/test_motion_telemetry.py",
+      "sha256_lf": "342b24b1a3f1808172eb0b5511b8195c4e60becad20f33b9e0045b0a9ff8c1b4"
+    },
+    {
+      "path": "robot_rebuild/tests/test_navigation_protocol.py",
+      "sha256_lf": "9ff013d2483a21cb677d2d41dc2306d28b5f45017b4b021b0841e038c3023e55"
+    },
+    {
+      "path": "robot_rebuild/tests/test_navigation_remote.py",
+      "sha256_lf": "d7cd03dcde0672bd95b749d25278f57e11a4e2ec70ff9ba28ebdc653eb9e1b28"
+    },
+    {
+      "path": "robot_rebuild/tests/test_navigation_request.py",
+      "sha256_lf": "851772b4c65001471782a5ee2a494fd6edd775d494a974d220e0f12e69854a7c"
+    },
+    {
+      "path": "robot_rebuild/tests/test_navigation_session.py",
+      "sha256_lf": "d61705d60c4a56d8a20fe104c6ec8da7ef90f7c6f3ba4a5305d6e2a606a4d9a0"
+    },
+    {
+      "path": "robot_rebuild/tests/test_ov5647.py",
+      "sha256_lf": "bee463c800f92145ca31096d71c1d62dd6e6244de0473d2386f1d4496fddfddb"
+    },
+    {
+      "path": "robot_rebuild/tests/test_ov5647_raw.py",
+      "sha256_lf": "d9dd6a55301e923702c02d9f9b8e007cf2400219504a1b88d47c5d19ee306af9"
+    },
+    {
+      "path": "robot_rebuild/tests/test_predictive_model.py",
+      "sha256_lf": "c01e0309a3ecbdbd0454182f82117a3c78205d56a52f78ef438d8e8a878ef18d"
+    },
+    {
+      "path": "robot_rebuild/tests/test_recording_overlay.py",
+      "sha256_lf": "8cbcbe96cdfa8719f5f34ed80532382aecbcb205165fdfa943e3824562e28327"
+    },
+    {
+      "path": "robot_rebuild/tests/test_recording_presentation.py",
+      "sha256_lf": "02a102c9e4875b6fd2880b1fae9ca79218ad06404d079c24d6bddcbac575e414"
+    },
+    {
+      "path": "robot_rebuild/tests/test_remote_follow.py",
+      "sha256_lf": "d06ba92e9eab7502ed964368465c656f6b0c4e5cc0341759ba704d6fcfb5358d"
+    },
+    {
+      "path": "robot_rebuild/tests/test_rtl_planning_snapshot.py",
+      "sha256_lf": "24fbe96ed5d35683174c27000bd6249c0bf3f5534f3a40916471279091fd1c75"
+    },
+    {
+      "path": "robot_rebuild/tests/test_semantic_deployment.py",
+      "sha256_lf": "2c643759edfbfb48477ea671bb24f0ce4e179847e95409e398cbd2c2e2abfb17"
+    },
+    {
+      "path": "robot_rebuild/tests/test_usb_lidar.py",
+      "sha256_lf": "eef01553d600d8948f36f36c31c3cee9cc3c8560148187f28e8f23c267b90c7b"
+    },
+    {
+      "path": "robot_rebuild/tests/test_video_recording.py",
+      "sha256_lf": "627f1bad2069114ab99ba57e418f187e780a927741ec8a909e2df467421d1be7"
+    },
+    {
+      "path": "robot_rebuild/tools/export_lidar_planning.py",
+      "sha256_lf": "3b11924d52aa255df28789e03cfe57e2e33f4e44706c3ef1a17b0d0834ee11d7"
+    },
+    {
+      "path": "robot_rebuild/tools/export_model.py",
+      "sha256_lf": "2b2d9f1892d8cb717f83a471cbdc95457332baa98c82fa7b9293e95243e80cbc"
+    },
+    {
+      "path": "robot_rebuild/tools/generate_lidar_lattice.py",
+      "sha256_lf": "a3535fc27dd7f5d2d9cbdf3c142318ae61155aa08488079bc111d93dcf782645"
+    },
+    {
+      "path": "robot_rebuild/tools/motion_model.py",
+      "sha256_lf": "a5fc849977b45582d690aadfccc8601b48d4a3c6114514006c03ae5ba6fbb24d"
+    },
+    {
+      "path": "robot_rebuild/tools/project.py",
+      "sha256_lf": "a659eb0a6142dc8999d1374b9515190cb590ca698374d1b72c25924b1d710936"
+    },
+    {
+      "path": "robot_rebuild/tools/record_motion_model.py",
+      "sha256_lf": "fd68e164cbaf350560f46e36f79414490b2b2d6831f8e4c978489d26a3e1f2d8"
+    },
+    {
+      "path": "robot_rebuild/tools/ubuntu_probe.sh",
+      "sha256_lf": "3509a197793e3544217177c087987102d69a04a7e20569fea643abef8af0b9d0"
+    },
+    {
+      "path": "scripts/build_fpga.py",
+      "sha256_lf": "d36bf425759412a5fe898651530f3bd386a614ece5c6d8866c06c4274f3a5a2f"
+    },
+    {
+      "path": "scripts/test_board_access.py",
+      "sha256_lf": "e6e37e433a240b168569abcbede5808745c9e2396a663c4fa0a2365491e01876"
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+{
+  "enabled": true,
+  "device": "",
+  "support_motor_dtr": true,
+  "baudrate": 115200
+}

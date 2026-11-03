@@ -1,0 +1,38 @@
+{
+  "units": "mm",
+  "locations": {
+    "前方": [
+      1000,
+      0
+    ],
+    "左边": [
+      0,
+      1000
+    ],
+    "右边": [
+      0,
+      -1000
+    ],
+    "后边": [
+      -1000,
+      0
+    ],
+    "左前方": [
+      1000,
+      1000
+    ],
+    "右前方": [
+      1000,
+      -1000
+    ]
+  },
+  "instruction": "去前方找水瓶",
+  "dwell_s": 3.0,
+  "confirm_frames": 5,
+  "confirm_s": 0.4,
+  "total_timeout_s": 240.0,
+  "approach_timeout_s": 30.0,
+  "min_bottle_height": 0.25,
+  "visual_stop_height": 0.6,
+  "approach_speed": 6
+}
